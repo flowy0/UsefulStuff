@@ -9,6 +9,8 @@ Alt with Option
 Mouse:
 - Triple Click - paragraph
 - 4 clicks - Select All
+
+
 Selections:
 - Shift Cmd Left Arrow -- Select Previous Line
 - Shift Cmd Right Arrow -- Select Entire Line
