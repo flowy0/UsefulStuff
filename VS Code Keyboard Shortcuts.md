@@ -27,9 +27,9 @@ Moving/Copying lines:
 
 
 Others:
-Cmd F - Find
-Cmd H - Replace
-Option -Z: Toggle Wordwrap
+- Cmd F - Find
+- Cmd H - Replace
+- Option -Z: Toggle Wordwrap
 
 
 
