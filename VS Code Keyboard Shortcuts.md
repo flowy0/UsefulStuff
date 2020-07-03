@@ -18,10 +18,10 @@ Selections:
 - Cmd Shift L - Select all repeats of current selection
 
 Moving Around the File:
-Cmd Shift \ - Jump between brackets
+- Cmd Shift \ - Jump between brackets
 
 Moving/Copying lines:
- - Option Arrow - moves that line
+- Option Arrow - moves that line
 - Shift Option up/down - copies line up or down
 
 
