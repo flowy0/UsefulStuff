@@ -9,12 +9,11 @@ Alt with Option
 Mouse:
 - Triple Click - paragraph
 - 4 clicks - Select All
-
 Selections:
-Shift Cmd Left Arrow -- Select Previous Line
-Shift Cmd Right Arrow -- Select Entire Line
-Shift Option arrow - select next word
-Cmd Shift L - Select all repeats of current selection
+- Shift Cmd Left Arrow -- Select Previous Line
+- Shift Cmd Right Arrow -- Select Entire Line
+- Shift Option arrow - select next word
+- Cmd Shift L - Select all repeats of current selection
 
 Moving Around the File:
 Cmd Shift \ - Jump between brackets
