@@ -23,5 +23,6 @@ in common.zsh-theme, add `[$(pyenv_prompt_info)]` before `common_return_status`
  
 See the result below.
 
+In this case, the folder name is webscrape and the pyenv name is py39
 
 <img src="common_theme_screenshot.png" alt="screenshot" width="650">
