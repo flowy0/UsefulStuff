@@ -34,6 +34,6 @@ brew install kubectl
 # database, s3 access
 brew install --cask dbeaver-community cyberduck
 brew install postgresql
-
+brew install --cask microsoft-azure-storage-explorer
 
 
