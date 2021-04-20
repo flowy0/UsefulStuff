@@ -34,8 +34,9 @@ https://www.nerdfonts.com/font-downloads
 
 ```
 brew tap homebrew/cask-fonts
-brew cask install font-Overpass-nerd-font
-brew cask install font-Mononoki-nerd-font
+brew install --cask font-Overpass-nerd-font
+brew install --cask font-Mononoki-nerd-font
+
 ```
 
 
