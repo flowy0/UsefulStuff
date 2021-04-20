@@ -17,7 +17,7 @@ Step 1: Homebrew install
 
 Step 2:
 ``` shell
-brew cask install iterm
+brew install iterm2
 ```
 
 Step 3:
@@ -41,14 +41,18 @@ brew install --cask font-Mononoki-nerd-font
 
 
 Step 5:
+
+Add ZSH Plugins
 ```
-brew install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
 Update ~/.zshrc plugin sections with your new plugins:
 ```
 plugins=(git
 zsh-autosuggestions
+zsh-syntax-highlighting
 )
 ```
 
