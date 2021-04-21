@@ -16,7 +16,7 @@ brew install --cask alfred
 brew tap homebrew/cask-fonts
 brew install --cask font-Overpass-nerd-font
 brew install --cask font-Mononoki-nerd-font
-
+brew install font-cascadia-code font-cascadia-mono
 
 # python
 brew install miniconda
