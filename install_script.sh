@@ -9,6 +9,7 @@ brew install iterm2
 # utilities 
 brew install dashlane chromium
 brew install --cask macs-fan-control
+brew install --cask alfred
 
 
 # fonts
