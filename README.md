@@ -29,3 +29,18 @@ setup_spark.sh | setup spark using homebrew
 Filename | Description
 ------------ | -------------
 dropboxOrganize_type2.py | Script to move photos from Camera Uploads to Year/Month Folders
+
+
+#### Markdown Reference :
+
+##### Markdown links to relative files 
+
+If a file has spaces, replace the spaces with `%20`
+```
+- [Setup oh-my-zsh](Setup%20ZSH.md)
+```
+##### Embedding images with a specific size
+```
+<img src="common_theme_screenshot.png" alt="screenshot" width="650">
+```
+
