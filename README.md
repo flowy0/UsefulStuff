@@ -6,7 +6,11 @@ Also, as a side project, in order to practice using Markdown
 
 ### Guides
 
-[ZSH Themes.md](Setup ZSH Theme)
+- [Setup oh-my-zsh](Setup%20ZSH.md)
+
+- [ZSH Themes Setup - 'Common theme'](ZSH%20Themes.md)
+
+- [GitHub](http://github.com)
 
 
 
@@ -14,6 +18,14 @@ Also, as a side project, in order to practice using Markdown
 
 ### Shell Scripts:
 
-1. install_script -- install homebrew and some essential apps
-2. update_config.sh -- use gitignore_global and update git config
-3. setup_spark.sh -- setup spark using homebrew
+Filename | Description
+------------ | -------------
+install_script | install homebrew and some essential apps
+update_config.sh | use gitignore_global and update git config
+setup_spark.sh | setup spark using homebrew
+
+
+### Python Scripts:
+Filename | Description
+------------ | -------------
+dropboxOrganize_type2.py | Script to move photos from Camera Uploads to Year/Month Folders
