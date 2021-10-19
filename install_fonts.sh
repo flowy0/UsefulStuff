@@ -4,3 +4,5 @@
 brew install --cask font-aurulent-sans-mono-nerd-font
 brew install --cask font-hurmit-nerd-font
 brew install --cask font-fantasque-sans-mono-nerd-font
+brew install --cask font-jetbrains-mono-nerd-font
+brew install --cask font-fira-mono-nerd-font
