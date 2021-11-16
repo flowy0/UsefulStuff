@@ -20,9 +20,12 @@ Also, as a side project, in order to practice using Markdown
 
 Filename | Description
 ------------ | -------------
-install_script | install homebrew and some essential apps
+install_script.sh | install homebrew and some essential apps
 update_config.sh | use gitignore_global and update git config
 setup_spark.sh | setup spark using homebrew
+install_fonts.sh | install additional code fonts
+install_gcloud_cli.sh | install gcloud cli (headless script)
+uninstall_gcloud_cli.sh | uninstall gcloud cli and remove config files
 
 
 ### Python Scripts:
