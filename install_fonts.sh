@@ -1,3 +1,10 @@
+brew tap homebrew/cask-fonts
+brew install --cask font-Overpass-nerd-font
+brew install --cask font-Mononoki-nerd-font
+brew install font-cascadia-code font-cascadia-mono font-caskaydia-cove-nerd-font
+brew install --cask font-victor-mono
+
+
 # add more fonts
 # previews at https://www.nerdfonts.com/font-downloads
 
