@@ -11,3 +11,12 @@ echo -e 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> ~/.zshrc
 conda create -n spark python=3.8
 conda activate spark
 pip install pyspark
+
+# for m1 mac
+# echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+# echo 'export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"' >> ~/.zshrc
+# sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+# echo -e 'SPARK_HOME=/opt/homebrew/Cellar/apache-spark/3.2.0/libexec' >> ~/.zshrc
+# run example 
+# cd /opt/homebrew/Cellar/apache-spark/3.2.0/ &&  ./bin/spark-submit $SPARK_HOME/examples/src/main/python/pi.py 10
+
