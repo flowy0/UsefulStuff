@@ -21,7 +21,9 @@ brew tap buo/cask-upgrade
 brew install iterm2
 
 # utilities 
-brew install chromium brave firefox
+brew install brave firefox
+brew install chromium --no-quarantine
+brew install --cask google-drive
 brew install --cask macs-fan-control
 brew install --cask alfred
 brew install dropbox
