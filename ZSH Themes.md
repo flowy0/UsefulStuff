@@ -91,3 +91,20 @@ In this case, the folder name is webscrape and the pyenv name is py39
 <img src="common_theme_screenshot.png" alt="screenshot" width="650">
 
 
+### Configuring kube-ps-1
+
+https://github.com/jonmosco/kube-ps1
+
+My settings in .zshrc
+```
+# for kube context
+source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
+
+KUBE_PS1_NS_ENABLE=""
+KUBE_PS1_CTX_COLOR="green"
+KUBE_PS1_SYMBOL_USE_IMG=""
+KUBE_PS1_SYMBOL_DEFAULT=""
+KUBE_PS1_SEPARATOR=""
+```
+<img width="954" alt="Screenshot 2022-06-14 at 6 08 19 PM" src="https://user-images.githubusercontent.com/9532712/173552634-748f37bb-adce-4717-a3a2-d9aec4173e29.png">
