@@ -11,10 +11,8 @@
 
 import os, time
 import glob
-from dotenv import load_dotenv
 
 # get Home folder path
-load_dotenv() 
 HOME_DIR = os.getenv("HOME")
 
 #Define Pictures Folder
