@@ -13,3 +13,8 @@ brew install --cask font-hurmit-nerd-font
 brew install --cask font-fantasque-sans-mono-nerd-font
 brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask font-fira-mono-nerd-font
+brew install --cask font-hack-nerd-font
+brew install --cask font-hurmit-nerd-font
+brew install --cask font-inconsolata-nerd-font
+brew install --cask font-overpass-nerd-font
+brew install --cask font-blex-mono-nerd-font
