@@ -10,4 +10,4 @@ cat .ssh/authorized_keys
 ```
 
 
-# https://serverfault.com/questions/241588/how-to-automate-ssh-login-with-password
+ref: https://serverfault.com/questions/241588/how-to-automate-ssh-login-with-password
