@@ -36,7 +36,7 @@ An example output might look like this
 apiVersion: v1
 kind: Secret
 metadata:
-  generateName: ecs-secret-b13
+  generateName: your-secret-name-
 type: Opaque
 stringData:
   AWS_ACCESS_KEY_ID: your_username
