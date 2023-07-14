@@ -41,3 +41,7 @@ Setup your conda environments as usual.
 conda create -n your-env python=3.10
 ```
 
+Pin the version in brew, this prevents your conda environments being wiped out if conda is upgraded via brew
+```
+brew cu pin miniconda
+```
