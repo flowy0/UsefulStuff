@@ -6,13 +6,11 @@ Also, as a side project, in order to practice using Markdown
 
 ### Guides
 
-- [Setup oh-my-zsh](Setup%20ZSH.md)
+- [Setup oh-my-zsh](Setup_ZSH.md)
 
-- [ZSH Themes Setup - 'Common theme'](ZSH%20Themes.md)
+- [Using YQ to edit kubernetes yaml files ](Using_YQ.md)
 
-- [GitHub](http://github.com)
-
-
+- [Replacing Docker Desktop with alternatives](replacing_docker_desktop.md)
 
 
 

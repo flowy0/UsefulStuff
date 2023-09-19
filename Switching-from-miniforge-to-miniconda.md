@@ -1,5 +1,8 @@
 # Switching from miniforge to miniconda
 
+As miniconda is now available for M1/Apple Silicon, i replace miniforge with miniconda.
+
+
 Remove `miniforge`
 ```bash
 brew uninstall miniforge
