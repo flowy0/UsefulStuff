@@ -62,8 +62,12 @@ Edit ~/.zshrc to pick a theme, my current theme is named cloud.
 #themes
 ZSH_THEME="cloud"
 ```
+See [ZSH themes for more details on customisation](ZSH_Themes.md)
 
 
 Optional:
 Themes for iTerm2
 https://iterm2colorschemes.com/
+
+
+
