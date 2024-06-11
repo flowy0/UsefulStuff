@@ -22,7 +22,7 @@ brew install docker-credential-helper
 
 
 Setup engine as dockerd
-![image](https://github.com/flowy0/UsefulStuff/assets/9532712/6d623874-9aab-4edf-ba42-e010858995df)
+![image](https://github.com/flowy0/UsefulStuff/assets/9532712/6d623874-9aab-4edf-ba42-e010858995df){width=600}
 
 `docker context use rancher-desktop`
 
@@ -111,3 +111,37 @@ brew install docker-buildx
 mkdir -p ~/.docker/cli-plugins
 ln -sfn /opt/homebrew/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugins/docker-buildx
 ```
+
+### Colima with different backend engines
+
+#### Create multiple docker contexts 
+```bash
+# amd profile 
+colima start --profile amd --arch amd --cpu 4 --memory 8 --disk 80
+
+# default profile
+colima start --arch aarch64 --vm-type=vz --vz-rosetta --cpu 4 --memory 12 --disk 80
+```
+
+#### Switch docker context 
+```bash
+docker context ls
+```
+
+Output:
+```
+NAME            DESCRIPTION                               DOCKER ENDPOINT                               ERROR
+colima *        colima                                    unix:///Users/g/.colima/default/docker.sock
+colima-amd      colima [profile=amd]
+```
+
+Switch accordingly
+```bash
+docker context use colima
+#or
+docker context use colima-amd
+
+
+```
+
+
