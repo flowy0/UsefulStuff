@@ -13,13 +13,13 @@ Install Rancher Desktop
 brew install --cask rancher
 ```
 
-Install Docker cli and credential helper
+Install Docker cli, plugins and credential helper
 ```
 brew install docker
 brew install docker-credential-helper
+
+brew install docker-compose
 ```
-
-
 
 Setup engine as dockerd
 ![image](https://github.com/flowy0/UsefulStuff/assets/9532712/6d623874-9aab-4edf-ba42-e010858995df){width=600}
