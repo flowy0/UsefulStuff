@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  
+  "version": 2,
+  "final_space": true,
+  "console_title_template": "{{ .Shell }} in {{ .Folder }}",
+  "blocks": [
+    {
+      "alignment": "left",
+      "type": "prompt",
+      "segments": [
+        {
+          "type": "path",
+          "background": "darkGray",
+          "foreground": "lightYellow",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": "\ue5ff {{ .Folder }}",
+          "trailing_diamond": "\ue0b4",
+          "properties": {
+            "style" : "full"
+          }
+        },
+        {
+          "type": "git",
+          "background": "darkGray",
+          "foreground": "blue",
+          "leading_diamond": " \ue0b6",
+          "properties": {
+            "branch_icon": ""
+          },
+          "style": "diamond",
+          "template": "{{ .HEAD }}",
+          "trailing_diamond": "\ue0b4"
+        },
+        {
+          "type": "python",
+          "background": "darkGray",
+          "foreground": "lightGreen",
+          "leading_diamond": " \ue0b6",
+          "style": "diamond",
+          "template": "{{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+          "trailing_diamond": "\ue0b4",
+          "properties": {
+            "fetch_version": false,
+            "fetch_virtual_env": true
+          }
+        },
+
+        {
+          "type": "kubectl",
+          "style": "diamond",
+          "leading_diamond": " \ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "foreground": "cyan",
+          "background": "darkGray",
+          "template": " {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} ",
+          "properties": {
+            "context_aliases": {
+              "arn:aws:eks:eu-west-1:1234567890:cluster/posh": "posh"
+            }
+          }
+        }
+      ]
+    }
+  ]
+ 
+}

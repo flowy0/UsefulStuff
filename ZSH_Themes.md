@@ -6,7 +6,7 @@
 Using the [spaceship theme](https://github.com/spaceship-prompt/spaceship-prompt) : 
 
 This shows the conda environment, current dir and kubectl context on the left, and the git branch on the right
-<img src="spaceship-theme.png" alt="screenshot" width="750">
+<img src="assets/spaceship-theme.png" alt="screenshot" width="750">
 
 
 my settings in .zshrc 
@@ -59,7 +59,7 @@ ZSH_THEME="common"
 If you are using conda/miniconda, there are no modifications required for the common.zsh-theme.
 It should show like this:
 
-<img src="common_theme_conda_env.png" alt="screenshot" width="650">
+<img src="assets/common_theme_conda_env.png" alt="screenshot" width="650">
 
 
 
@@ -88,7 +88,7 @@ See the result below.
 
 In this case, the folder name is webscrape and the pyenv name is py39
 
-<img src="common_theme_screenshot.png" alt="screenshot" width="650">
+<img src="assets/common_theme_screenshot.png" alt="screenshot" width="650">
 
 
 ### Configuring kube-ps-1
