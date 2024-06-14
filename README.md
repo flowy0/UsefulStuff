@@ -6,6 +6,8 @@ Also, as a side project, in order to practice using Markdown
 
 ### Guides
 
+- [Minimal Mac Setup with ZSH, in 2024](minimal-setup-2024.md)
+
 - [Setup oh-my-zsh](Setup_ZSH.md)
 
 - [Using YQ to edit kubernetes yaml files ](Using_YQ.md)

@@ -10,6 +10,12 @@ brew
     eval "$(/opt/homebrew/bin/brew shellenv)"\
 ```    
 
+## Install [Brew Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade)
+This would allow you to list and upgrade casks via the command `brew cu`
+```bash
+brew tap buo/cask-upgrade
+```
+
 ## Install some utilities
 ```bash
 brew install 1password dropbox iterm2 arc shottr firefox telegram
@@ -17,7 +23,7 @@ brew install 1password dropbox iterm2 arc shottr firefox telegram
 
 ## Install dev tools
 ```bash
-brew install colima kind docker docker-credential-helper docker-compose docker-buildx kubectl visual-studio-code zed micromamba
+brew install colima kind docker docker-credential-helper docker-compose docker-buildx kubectl visual-studio-code zed micromamba gh
 ```
 
 ## Setup custom resolutions with [hipdpi script](https://github.com/xzhih/one-key-hidpi)
