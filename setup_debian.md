@@ -29,6 +29,8 @@ To disable password entry to sudo access, use this instead.
 export TERM=xterm-256color
 ```
 
+or `echo 'export TERM=xterm-256color' >> ~/.bashrc`
+
 
 ### vim-tiny config
 ```.vimrc
