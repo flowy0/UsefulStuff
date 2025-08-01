@@ -70,4 +70,11 @@ sudo systemctl enable containerd.service
 
 ```
 
+Simplified Docker Install
+This seems to be an older version (Docker version 20.10.24+dfsg1, build 297e128) instead of Docker 28 in previous step
+```
+sudo apt update
+sudo apt install docker.io
+```
+
 
